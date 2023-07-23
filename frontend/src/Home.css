@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: calc(100vh - 10px); /* Adjusting height for 50px top offset */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyv-9te3UWKT3BlQVr2G9s_HVrBMbBo-xGnAnGz9_OA7WpGuNTMD1N9qcl58zBIXtnVko&usqp=CAU") center center no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: whitesmoke
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: teal; 
+    color: #fff;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(0, 178, 178, 0.5);
+}
+
+.result {
+    background-color: lightcyan;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: blueviolet;
+  }
+
+  .file-upload {
+    display: inline-block;
+    cursor: pointer;
+    background-color: teal;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  .file-upload span {
+    margin-right: 10px;
+  }
