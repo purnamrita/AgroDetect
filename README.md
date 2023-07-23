@@ -1,6 +1,6 @@
 # AgroDetect
 
-A deep learning classifier that uses Convolutional Neural Networks (CNN) to classify potato plant leaves into healthy, late blight, and early blight categories. The project includes a FastAPI server for inference and a frontend app for easy interaction.
+A deep learning classifier that uses Convolutional Neural Networks (CNN) to classify potato plant leaves into healthy, late blight, and early blight categories. The project includes a FastAPI server for inference and a frontend React app for easy interaction.
 
 Key Features:
 - Trained CNN model for potato leaf disease classification
